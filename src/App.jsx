@@ -1,9 +1,10 @@
 import React from 'react';
 import Gravity from './Components/Gravity';
+import ReverseGravity from './Components/ReverseGravity';
 
 const App = () => (
   <div>
-    <Gravity/>
+    <ReverseGravity/>
   </div>
 );
 
