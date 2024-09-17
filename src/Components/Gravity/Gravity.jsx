@@ -1,5 +1,5 @@
 import styles from "./Gravity.module.scss";
-import me from "../../assets/me.jpeg";
+import me from "/assets/me.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -32,7 +32,7 @@ const Gravity = () => {
           </p>
           <div className={styles.downloadContainer}><a
             className={styles.cv}
-            href="../../assets/curriculo.pdf"
+            href="/assets/curriculo.pdf"
             download="carlos-curriculo.pdf"
           >
             Download CV
