@@ -36,7 +36,7 @@ $shadows-big: multiple-box-shadow(400);
 .image {
   border-radius: 100%;
   height: 20rem;
-  border: 2px solid white;
+  border: 0.5rem solid white;
 }
 
 .content1 {
@@ -57,12 +57,15 @@ $shadows-big: multiple-box-shadow(400);
   height: auto;
 }
 
+.download {
+  height: 1.5rem;
+}
+
 .content2 p {
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 0.5rem;
+  padding-top: 0.6rem;
   padding-bottom: 5rem;
-  text-align: center;
 }
 
 .content2 h1 {
@@ -77,15 +80,15 @@ $shadows-big: multiple-box-shadow(400);
   text-decoration: none;
   color: white;
   padding: 0.5rem;
-  border: 2px solid white;
+  border: 0.3rem solid white;
   font-size: 1.5rem;
   cursor: pointer;
   border-radius: 10px;
-  background-color: #015ba9;
+  background-color: #000000;
 }
 
 .cv:hover {
-  background-color: #038bff;
+  border: 0.3rem solid rgb(98, 124, 239);
 }
 
 @media (max-width: 65rem) {
@@ -99,7 +102,6 @@ $shadows-big: multiple-box-shadow(400);
   .content1 p {
     font-size: 2rem;
     font-family: "Unlock", serif;
-    padding-bottom: 1rem;
   }
   .content2 {
     width: 25rem;
@@ -151,6 +153,36 @@ $shadows-big: multiple-box-shadow(400);
   }
   .image {
     height: 11rem;
+  }
+}
+
+@media (min-width: 125rem) {
+  .content2 {
+    max-width: 80rem;
+  }
+  .content2 p {
+    font-size: 3rem;
+    text-align: initial;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .content2 h1 {
+    font-size: 6rem;
+    width: auto;
+  }
+  .content1 p {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+  }
+  .image {
+    height: 30rem;
+    border: 1rem solid white;
+  }
+  .cv {
+    font-size: 3rem;
+  }
+  .content1 {
+    padding-right: 7rem;
   }
 }
 
