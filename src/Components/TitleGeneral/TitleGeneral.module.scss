@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Unlock&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.line {
+  flex-grow: 1; /* Faz a linha ocupar o espaço disponível */
+  height: 2px; /* Espessura da linha */
+  background-color: rgb(255, 255, 255); /* Cor da linha */
+  margin-right: 10px; /* Espaço entre a linha e o texto */
+}
+
+
+
+.lineText {
+  padding: 20px;
+  font-size: 3rem;
+  font-family: "Unlock", serif;
+}
+
+// .line-text {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .line-text::before,
+// .line-text::after {
+//   content: '';
+//   flex-grow: 1;
+//   height: 2px;
+//   background-color: black;
+// }
+
+// .line-text::before {
+//   margin-right: 10px; /* Espaço entre a linha e o texto */
+// }
+
+// .line-text::after {
+//   margin-left: 10px; /* Espaço entre a linha e o texto */
+// }

@@ -25,3 +25,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #707070; 
 }
+
+.AppMidle {
+  background-color: black;
+}

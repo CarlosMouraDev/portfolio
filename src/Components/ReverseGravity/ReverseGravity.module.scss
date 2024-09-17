@@ -38,7 +38,7 @@ $shadows-big: multiple-box-shadow(400);
   animation: animStar 50s linear infinite;
 
   &:after {
-    content: " ";
+    content: "";
     position: absolute;
     top: 2000px; // Aumentar para dar espaço
     width: 1px;
@@ -64,7 +64,7 @@ $shadows-big: multiple-box-shadow(400);
   animation: animStar 100s linear infinite;
 
   &:after {
-    content: " ";
+    content: "";
     position: absolute;
     top: 2000px;
     width: 2px;
@@ -90,7 +90,7 @@ $shadows-big: multiple-box-shadow(400);
   animation: animStar 150s linear infinite;
 
   &:after {
-    content: " ";
+    content: "";
     position: absolute;
     top: 2000px;
     width: 3px;
@@ -113,7 +113,7 @@ $shadows-big: multiple-box-shadow(400);
   margin-left: -80%;
 
   &:before {
-    content: " ";
+    content: "";
     position: absolute;
     width: 81.25%;
     height: 70%;
@@ -125,7 +125,7 @@ $shadows-big: multiple-box-shadow(400);
   }
 
   &:after {
-    content: " ";
+    content: "";
     position: absolute;
     width: 32%;
     height: 20%;
@@ -153,16 +153,16 @@ $shadows-big: multiple-box-shadow(400);
 #earth {
   position: absolute;
   width: 200%;
-  height: 100%;
+  height: 103%;
   background: black;
   border-radius: 100% / 100%;
   left: 50%;
   bottom: 50%;
-  margin-left: -100%;
+  margin-left: -101%;
   z-index: 3;
 
   &:before {
-    content: " ";
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
