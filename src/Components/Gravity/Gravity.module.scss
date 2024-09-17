@@ -62,6 +62,7 @@ $shadows-big: multiple-box-shadow(400);
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 0.5rem;
   padding-bottom: 5rem;
+  text-align: center;
 }
 
 .content2 h1 {
@@ -115,8 +116,41 @@ $shadows-big: multiple-box-shadow(400);
     font-family: "Unlock", serif;
     padding: 0.5rem;
   }
+  .cv {
+    font-size: 1.2rem;
+  }
   .image {
     height: 15rem;
+  }
+}
+
+@media (max-width: 29rem) {
+  .content1 {
+    margin: 0px;
+  }
+  .content1 p {
+    font-size: 1.5rem;
+    font-family: "Unlock", serif;
+    padding-bottom: 1rem;
+  }
+  .content2 {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content2 p {
+    font-size: 1rem;
+    width: 20rem;
+  }
+  .content2 h1 {
+    font-size: 1.5rem;
+    font-family: "Unlock", serif;
+    padding: 0.5rem;
+  }
+  .image {
+    height: 11rem;
   }
 }
 

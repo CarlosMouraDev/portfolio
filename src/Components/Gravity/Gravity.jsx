@@ -30,13 +30,13 @@ const Gravity = () => {
             full-stack para adentrar no mercado e conseguir experiências tanto
             na programação quanto no trabalho em equipe.
           </p>
-          <a
+          <div className={styles.downloadContainer}><a
             className={styles.cv}
             href="../../assets/curriculo.pdf"
             download="carlos-curriculo.pdf"
           >
             Download CV
-          </a>
+          </a></div>
         </div>
       </div>
     </div>
