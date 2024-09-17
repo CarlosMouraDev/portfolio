@@ -52,6 +52,7 @@ const Gravity = () => {
             download="carlos-curriculo.pdf"
             data-aos="zoom-in"
             data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
           >
           CV <img className={styles.download} src={DownloadIcon} alt="Icone download" />
           </a>
