@@ -5,7 +5,7 @@ const TitleGeneral = ({children}) => {
   return (
     <div className={styles.container}>
       <Reveal><p className={styles.lineText}>{children}</p></Reveal>
-      <div class={styles.line}></div>
+      <div className={styles.line}></div>
     </div>
   );
 };

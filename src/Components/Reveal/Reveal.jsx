@@ -2,32 +2,21 @@ import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 export default function Reveal({ children, width = "fit-content" }) {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
-  const mainControlls = useAnimation();
-  const slideControlls = useAnimation();
-
-  useEffect(() => {
-    if (isInView) {
-      mainControlls.start("visible");
-      slideControlls.start("visible");
-    }
-  }, [isInView]);
-
+  
   return (
-    <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
+    <div style={{ position: "relative", width, overflow: "hidden" }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 75 },
+          hidden: { opacity: 0, y: 80 },
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
-        animate={mainControlls}
+        whileInView="visible"
         transition={{
           duration: 0.5,
           delay: 0.25,
         }}
+        viewport={{ once: true }}
       >
         {children}
       </motion.div>
@@ -37,7 +26,7 @@ export default function Reveal({ children, width = "fit-content" }) {
           visible: { left: "100%" },
         }}
         initial="hidden"
-        animate={slideControlls}
+        whileInView="visible"
         transition={{ duration: 0.5, ease: "easeIn" }}
         style={{
           position: "absolute",
@@ -48,6 +37,7 @@ export default function Reveal({ children, width = "fit-content" }) {
           background: "green",
           zIndex: 20,
         }}
+        viewport={{ once: true }}
       />
     </div>
   );
