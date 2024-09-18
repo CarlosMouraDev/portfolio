@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 export default function Reveal({ children, width = "fit-content" }) {
   
   return (
-    <div style={{ position: "relative", width, overflow: "hidden" }}>
+    <div style={{ position: "relative", width}}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 80 },
-          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 70 },
+          visible: { opacity: 1, y: 0},
         }}
         initial="hidden"
         whileInView="visible"
@@ -30,11 +30,11 @@ export default function Reveal({ children, width = "fit-content" }) {
         style={{
           position: "absolute",
           top: 4,
-          bottom: 4, // Correção da propriedade 'bottom'
+          bottom: 4,
           left: 0,
           right: 0,
           background: "rgb(37, 69, 209)",
-          zIndex: 20,
+          zIndex: 40,
         }}
         viewport={{ once: true }}
       />
