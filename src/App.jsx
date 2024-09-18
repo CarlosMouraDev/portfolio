@@ -26,6 +26,9 @@ const App = () => (
           </Reveal>
           <AnimeEarth className="anime"/>
         </div>
+        <div className="tec">
+          <TitleGeneral>Tecnologias</TitleGeneral>
+        </div>
       </div>
     </div>
     <ReverseGravity />

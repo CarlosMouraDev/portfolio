@@ -8,10 +8,10 @@
 }
 
 .line {
-  flex-grow: 1; /* Faz a linha ocupar o espaço disponível */
-  height: 2px; /* Espessura da linha */
-  background-color: rgb(255, 255, 255); /* Cor da linha */
-  margin-right: 10px; /* Espaço entre a linha e o texto */
+  flex-grow: 1;
+  height: 2px; 
+  background-color: rgb(255, 255, 255);
+  margin-right: 10px;
 }
 
 
@@ -20,6 +20,18 @@
   padding: 20px;
   font-size: 2.5rem;
   font-family: "Unlock", serif;
+}
+
+@media (min-width: 1195px) {
+  .lineText {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1195px) {
+  .lineText {
+    font-size: 4rem;
+  }
 }
 
 

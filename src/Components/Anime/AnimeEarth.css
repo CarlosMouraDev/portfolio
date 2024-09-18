@@ -2,7 +2,7 @@
 	position: relative;
   top: 0px;
   width: 55rem;
-  height: 50rem;
+  height: 37rem;
 	overflow: hidden;
   top: -3rem;
 }
@@ -39,7 +39,7 @@
   }
   .universe {
     width: 38rem;
-    height: 30rem;
+    height: 25rem;
     overflow: hidden;
   }
 }
@@ -50,7 +50,7 @@
   }
   .universe {
     width: 38rem;
-    height: 30rem;
+    height: 21rem;
     overflow: hidden;
   }
 }
@@ -61,7 +61,7 @@
   }
   .universe {
     width: 20rem;
-    height: 24rem;
+    height: 22rem;
     overflow: hidden;
     left: -2rem;
   }
