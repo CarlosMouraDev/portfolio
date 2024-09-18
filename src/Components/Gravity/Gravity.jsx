@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import DownloadIcon from "/assets/downloadIcon.png"
-import Reveal from "../Reveal/Reveal";
 
 const Gravity = () => {
   useEffect(() => {
@@ -22,13 +21,13 @@ const Gravity = () => {
       <div id={styles.earth}></div>
       <div className={styles.container}>
         <div className={styles.content1}>
-          <Reveal>
           <img
+            data-aos-duration="700"
+            data-aos="zoom-in"
             className={styles.image}
             src={me}
             alt="Minha foto"
           />
-          </Reveal>
           <p
             data-aos-duration="700"
             data-aos="zoom-in"

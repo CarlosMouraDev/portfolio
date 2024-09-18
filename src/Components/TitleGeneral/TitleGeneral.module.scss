@@ -18,8 +18,15 @@
 
 .lineText {
   padding: 20px;
-  font-size: 3rem;
+  font-size: 4vw;
   font-family: "Unlock", serif;
+}
+
+@media (max-width: 39.1rem) {
+  .lineText {
+    padding: 6px;
+    font-size: 6vw;
+  }
 }
 
 // .line-text {

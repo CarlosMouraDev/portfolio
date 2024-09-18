@@ -1,5 +1,4 @@
-import { motion, useInView, useAnimation } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 export default function Reveal({ children, width = "fit-content" }) {
   
@@ -34,7 +33,7 @@ export default function Reveal({ children, width = "fit-content" }) {
           bottom: 4, // Correção da propriedade 'bottom'
           left: 0,
           right: 0,
-          background: "green",
+          background: "rgb(37, 69, 209)",
           zIndex: 20,
         }}
         viewport={{ once: true }}
