@@ -42,8 +42,7 @@ const Gravity = () => {
           </h1>
           <p data-aos="zoom-out-left" data-aos-duration="700">
             Estou buscando minha primeira vaga de trabalho como desenvolvedor
-            full-stack para adentrar no mercado e conseguir experiências tanto
-            na programação quanto no trabalho em equipe! 🚀
+            full-stack ou front-end para iniciar minha carreira e aprender mais sobre o mundo da programação! 🚀
           </p>
           <a
             className={styles.cv}
