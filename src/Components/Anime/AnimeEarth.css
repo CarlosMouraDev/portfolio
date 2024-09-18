@@ -57,7 +57,7 @@
 
 @media (max-width: 547px) {
   .universe__part:nth-child(3) {
-    transform: scale(1.4);
+    transform: scale(1.5);
   }
   .universe {
     width: 20rem;
