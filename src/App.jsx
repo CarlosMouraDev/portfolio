@@ -7,6 +7,7 @@ import AnimeEarth from "./Components/Anime/AnimeEarth";
 import Reveal from "./Components/Reveal/Reveal";
 import Tec from "./Components/Tec/Tec";
 import Soft from "./Components/Soft/Soft";
+import Project from "./Components/Project/Project";
 
 const App = () => (
   <div className="App">
@@ -30,9 +31,9 @@ const App = () => (
         </div>
         <TitleGeneral>Habilidades</TitleGeneral>
         <div className="skillsContainer">
-          <p className="skillTitle">Hard Skills</p>
           <div className="tec">
             <Reveal>
+              <p className="skillTitle">Hard Skills</p>
               <div className="tecContainer">
                 <Tec
                   src="/assets/javascript.png"
@@ -63,44 +64,62 @@ const App = () => (
                 <Tec src="/assets/mongo.svg" alt="mongo" title="MongoDB" />
               </div>
             </Reveal>
-            <p className="skillTitle">Soft skills</p>
-            <div className="soft">
-              <Soft
-                src="/assets/trabalhoEmEquipe.webp"
-                alt="Trabalho em equipe"
-                title="Trabalho em equipe"
-              >
-                Lido muito bem com trabalho em equipe e consigo debater ideias
-                com meus colegas.
-              </Soft>
-              <Soft
-                src="/assets/resolucaoDeProblemas.webp"
-                alt="Resolução de problemas"
-                title="Resolução de problemas"
-              >
-                Consigo pensar de forma crítica e abordar os desafios de
-                diferentes formas, buscando a melhor solução para resolve-los.
-              </Soft>
-              <Soft
-                src="/assets/disposicao.jpg"
-                alt="Resolução de problemas"
-                title="Disposição para aprender"
-              >
-                Na área da tecnologia, é necessário estar sempre estudando e
-                aprendendo, e eu possuo disposição para essa necessidade.
-              </Soft>
-              <Soft
-                src="/assets/comunicacao.jpg"
-                alt="Comunicação"
-                title="Comunicação"
-              >
-                Consigo me comunicar e expressar minhas ideias de forma clara e eficiente.
-              </Soft>
-            </div>
+            <Reveal>
+              <div className="soft">
+                <p className="skillTitle">Soft skills</p>
+                <div className="softContainer">
+                  <Soft
+                    src="/assets/trabalhoEmEquipe.webp"
+                    alt="Trabalho em equipe"
+                    title="Trabalho em equipe"
+                  >
+                    Lido muito bem com trabalho em equipe e consigo debater
+                    ideias com meus colegas.
+                  </Soft>
+                  <Soft
+                    src="/assets/resolucaoDeProblemas.webp"
+                    alt="Resolução de problemas"
+                    title="Resolução de problemas"
+                  >
+                    Consigo pensar de forma crítica e abordar os desafios de
+                    diferentes formas, buscando a melhor solução para
+                    resolve-los.
+                  </Soft>
+                  <Soft
+                    src="/assets/disposicao.jpg"
+                    alt="Resolução de problemas"
+                    title="Disposição para aprender"
+                  >
+                    Na área da tecnologia, é necessário estar sempre estudando e
+                    aprendendo, e eu possuo disposição para essa necessidade.
+                  </Soft>
+                  <Soft
+                    src="/assets/comunicacao.jpg"
+                    alt="Comunicação"
+                    title="Comunicação"
+                  >
+                    Consigo me comunicar e expressar minhas ideias de forma
+                    clara e eficiente.
+                  </Soft>
+                </div>
+              </div>
+            </Reveal>
           </div>
         </div>
-        <div className="skills">
+        <div className="projectsContainer">
           <TitleGeneral>Projetos</TitleGeneral>
+          <div className="projects">
+            <Project
+              href="https://projeto-react-jade.vercel.app/"
+              src="/assets/dog.png"
+              alt="dog"
+              title='Projeto "Dogs"'
+              ghub="https://github.com/CarlosMouraDev/dogs"
+            >
+              Uma rede social para cachorros feita inteiramente com react.
+              Demonstra o consumo de uma api usando react.
+            </Project>
+          </div>
         </div>
       </div>
     </div>
