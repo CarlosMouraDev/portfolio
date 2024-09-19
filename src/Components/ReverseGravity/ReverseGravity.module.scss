@@ -189,3 +189,98 @@ $shadows-big: multiple-box-shadow(400);
     transform: translateY(-2000px);
   }
 }
+
+.container {
+  position: absolute;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container h1 {
+  font-family: "Unlock", serif;
+  text-shadow: 10px 10px 15px rgba(251, 251, 251, 0.5);
+  text-decoration: underline;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact img {
+  margin-top: 8rem;
+  height: 7rem;
+}
+
+.contact img:hover {
+  cursor: pointer;
+}
+
+.container p {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.ghub {
+  margin-right: 3rem;
+}
+
+@media (max-width: 640px) {
+  .container h1 {
+    font-size: 1.8rem;
+  }
+  .contact img {
+    margin-top: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container h1 {
+    font-size: 1.4rem;
+  }
+  .contact img {
+    margin-top: 5rem;
+    height: 4rem;
+  }
+  .container p {
+    padding-top: 3rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container h1 {
+    font-size: 5rem;
+  }
+  .contact img {
+    margin-top: 20rem;
+    height: 14rem;
+  }
+  .container p {
+    padding-top: 10rem;
+    font-size: 4rem;
+  }
+}
+
+.copyright {
+  position: absolute;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  width: 100%;
+}
+
+.copyright p {
+  text-align: center;
+  padding-bottom: 1rem;
+}

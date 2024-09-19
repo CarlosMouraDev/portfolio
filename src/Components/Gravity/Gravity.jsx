@@ -1,9 +1,9 @@
 import styles from "./Gravity.module.scss";
-import me from "/assets/me.jpeg";
+import me from "/assets/me.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import DownloadIcon from "/assets/downloadIcon.png"
+import DownloadIcon from "/assets/downloadIcon.png";
 
 const Gravity = () => {
   useEffect(() => {
@@ -28,11 +28,7 @@ const Gravity = () => {
             src={me}
             alt="Minha foto"
           />
-          <p
-            data-aos-duration="700"
-            data-aos="zoom-in"
-            className={styles.name}
-          >
+          <p data-aos-duration="700" data-aos="zoom-in" className={styles.name}>
             Carlos Eduardo
           </p>
         </div>
@@ -42,7 +38,8 @@ const Gravity = () => {
           </h1>
           <p data-aos="zoom-out-left" data-aos-duration="700">
             Estou buscando minha primeira vaga de trabalho como desenvolvedor
-            full-stack ou front-end para iniciar minha carreira e aprender mais sobre o mundo da programação! 🚀
+            full-stack ou front-end para iniciar minha carreira e aprender mais
+            sobre o mundo da programação! 🚀
           </p>
           <a
             className={styles.cv}
@@ -52,7 +49,12 @@ const Gravity = () => {
             data-aos-duration="700"
             data-aos-anchor-placement="top-bottom"
           >
-          CV <img className={styles.download} src={DownloadIcon} alt="Icone download" />
+            CV{" "}
+            <img
+              className={styles.download}
+              src={DownloadIcon}
+              alt="Icone download"
+            />
           </a>
         </div>
       </div>

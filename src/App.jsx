@@ -108,18 +108,20 @@ const App = () => (
         </div>
         <div className="projectsContainer">
           <TitleGeneral>Projetos</TitleGeneral>
-          <div className="projects">
-            <Project
-              href="https://projeto-react-jade.vercel.app/"
-              src="/assets/dog.png"
-              alt="dog"
-              title='Projeto "Dogs"'
-              ghub="https://github.com/CarlosMouraDev/dogs"
-            >
-              Uma rede social para cachorros feita inteiramente com react.
-              Demonstra o consumo de uma api usando react.
-            </Project>
-          </div>
+          <Reveal>
+            <div className="projects">
+              <Project
+                href="https://projeto-react-jade.vercel.app/"
+                src="/assets/dog.png"
+                alt="dog"
+                title='Projeto "Dogs"'
+                ghub="https://github.com/CarlosMouraDev/dogs"
+              >
+                Uma rede social para cachorros feita inteiramente com react.
+                Demonstra o consumo de uma api usando react.
+              </Project>
+            </div>
+          </Reveal>
         </div>
       </div>
     </div>
