@@ -84,7 +84,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 22rem;
+    
   }
   .btn {
     margin: 2rem;
@@ -93,11 +93,13 @@
     width: 21rem;
   }
   .title {
-    padding: 2rem;
-    font-size: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 3rem;
   }
   .description {
-    padding: 2rem;
-    font-size: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.5rem;
   }
 }

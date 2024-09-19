@@ -5,7 +5,7 @@ import Reveal from "../Reveal/Reveal";
 
 const ReverseGravity = () => {
   return (
-    <div className={styles.parallaxSection}>
+    <div id="social" className={styles.parallaxSection}>
       <div id={styles.stars}></div>
       <div id={styles.stars2}></div>
       <div id={styles.stars3}></div>

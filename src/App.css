@@ -147,13 +147,13 @@
 }
 
 .projectsContainer {
-  padding-top: 4rem;
-}
-
-.projects {
-  padding-top: 1rem;
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.projects {
+  width: ;
 }

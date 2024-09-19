@@ -192,7 +192,7 @@ $shadows-big: multiple-box-shadow(400);
 
 .container {
   position: absolute;
-  z-index: 10000;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -272,7 +272,6 @@ $shadows-big: multiple-box-shadow(400);
 
 .copyright {
   position: absolute;
-  z-index: 10000;
   display: flex;
   justify-content: center;
   align-items: end;

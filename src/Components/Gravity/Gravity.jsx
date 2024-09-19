@@ -6,12 +6,13 @@ import { useEffect } from "react";
 import DownloadIcon from "/assets/downloadIcon.png";
 
 const Gravity = () => {
+
   useEffect(() => {
     AOS.init();
   }, []);
 
   return (
-    <div className={styles.parallaxSection}>
+    <div id="top" className={styles.parallaxSection}>
       <div id={styles.stars}></div>
       <div id={styles.stars2}></div>
       <div id={styles.stars3}></div>

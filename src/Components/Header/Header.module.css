@@ -1,0 +1,122 @@
+header {
+  display: flex;
+  position: fixed;
+  z-index: 10000;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px)
+}
+
+nav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rocket {
+  width: 2rem;
+  margin: 1rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  border-right: 1rem;
+}
+
+.nav a{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: 0.1s;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover,
+.nav a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+.mobileButton {
+  background: rgb(42, 42, 42);
+  border-radius: 0.2rem;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.mobileButton::after {
+  content: "";
+  display: block;
+  width: 1.2rem;
+  height: 2px;
+  background: currentColor;
+  box-shadow: 0 6px currentColor, 0 -6px currentColor;
+  transition: 0.2s;
+  color: white;
+}
+
+.mobileButton:focus,
+.mobileButton:hover,
+.mobileButtonActive {
+  outline: none;
+  background: rgb(49, 49, 49);
+  box-shadow: 0 0 0 3px rgb(128, 128, 128);
+  border-color: rgb(84, 84, 84);
+  color: rgb(141, 141, 141);
+}
+
+.mobileButtonActive::after {
+  transform: rotate(90deg);
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 8px currentColor, 0 -8x currentColor;
+}
+
+.navMobile {
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  padding: 0 1rem;
+  background: rgb(17, 17, 17);
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
+  border-radius: 0.2rem;
+  transform: translateX(-10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navMobileActive {
+  transition: 0.3s;
+  transform: initial;
+  opacity: 1;
+  z-index: 100;
+  pointer-events: initial;
+}
+
+.navMobile a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: none;
+  width: 100%;
+  border: none;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}

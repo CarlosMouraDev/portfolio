@@ -8,13 +8,15 @@ import Reveal from "./Components/Reveal/Reveal";
 import Tec from "./Components/Tec/Tec";
 import Soft from "./Components/Soft/Soft";
 import Project from "./Components/Project/Project";
+import Header from "./Components/Header/Header";
 
 const App = () => (
   <div className="App">
+    <Header />
     <Gravity />
     <div className="content">
       <div className="content2">
-        <TitleGeneral>Sobre mim</TitleGeneral>
+        <TitleGeneral id="about">Sobre mim</TitleGeneral>
         <div className="about">
           <Reveal>
             <p>
@@ -29,7 +31,7 @@ const App = () => (
           </Reveal>
           <AnimeEarth className="anime" />
         </div>
-        <TitleGeneral>Habilidades</TitleGeneral>
+        <TitleGeneral id="skills">Habilidades</TitleGeneral>
         <div className="skillsContainer">
           <div className="tec">
             <Reveal>
@@ -106,9 +108,9 @@ const App = () => (
             </Reveal>
           </div>
         </div>
-        <div className="projectsContainer">
-          <TitleGeneral>Projetos</TitleGeneral>
-          <Reveal>
+        <TitleGeneral id="projects">Projetos</TitleGeneral>
+        <Reveal>
+          <div className="projectsContainer">
             <div className="projects">
               <Project
                 href="https://projeto-react-jade.vercel.app/"
@@ -121,8 +123,8 @@ const App = () => (
                 Demonstra o consumo de uma api usando react.
               </Project>
             </div>
-          </Reveal>
-        </div>
+          </div>
+        </Reveal>
       </div>
     </div>
     <ReverseGravity />
