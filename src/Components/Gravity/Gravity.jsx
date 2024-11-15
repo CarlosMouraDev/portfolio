@@ -6,7 +6,6 @@ import { useEffect } from "react";
 import DownloadIcon from "/assets/downloadIcon.png";
 
 const Gravity = () => {
-
   useEffect(() => {
     AOS.init();
   }, []);
@@ -38,9 +37,12 @@ const Gravity = () => {
             Programador Full-Stack
           </h1>
           <p data-aos="zoom-out-left" data-aos-duration="700">
-            Estou buscando minha primeira vaga de trabalho como desenvolvedor
-            full-stack ou front-end para iniciar minha carreira e aprender mais
-            sobre o mundo da programação! 🚀
+            Atualmente, sou estagiário em desenvolvimento web full-stack na
+            Compass UOL, onde tenho a oportunidade de treinar habilidades em
+            tecnologias como React, Node.js, SpringBoot, dentre outros.
+            Diariamente, me dedico a aprimorar meu conhecimento e a desenvolver
+            soluções eficientes, com o objetivo de me tornar um desenvolvedor
+            completo e pronto para enfrentar desafios reais.🚀
           </p>
           <a
             className={styles.cv}
