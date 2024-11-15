@@ -22,11 +22,11 @@ const App = () => (
             <p>
               Meu nome é Carlos Eduardo, sou um programador apaixonado por
               resolver desafios e por praticar esportes, especialmente vôlei.
-              Atualmente, estou cursando Análise e Desenvolvimento de Sistemas,
-              com foco no desenvolvimento web. JavaScript é minha linguagem de
-              programação favorita, e é nela que decidi me especializar. Meus
-              principais objetivos são me tornar um programador de destaque e
-              alcançar fluência em inglês.
+              Atualmente, estou cursando Análise e Desenvolvimento de Sistemas e
+              estagiando como desenvolvedor full-stack na empresa compass UOL.
+              JavaScript é minha linguagem de programação favorita, e é nela que
+              decidi me especializar. Meus principais objetivos são me tornar um
+              programador de destaque e alcançar fluência em inglês.
             </p>
           </Reveal>
           <AnimeEarth className="anime" />

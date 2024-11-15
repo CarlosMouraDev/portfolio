@@ -52,7 +52,7 @@ const Gravity = () => {
             data-aos-duration="700"
             data-aos-anchor-placement="top-bottom"
           >
-            CV{" "}
+            CV
             <img
               className={styles.download}
               src={DownloadIcon}
