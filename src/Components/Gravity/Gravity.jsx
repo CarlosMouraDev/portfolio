@@ -38,11 +38,10 @@ const Gravity = () => {
           </h1>
           <p data-aos="zoom-out-left" data-aos-duration="700">
             Atualmente, sou estagiário em desenvolvimento web full-stack na
-            Compass UOL, onde tenho a oportunidade de treinar habilidades em
-            tecnologias como React, Node.js, SpringBoot, dentre outros.
+            Compass UOL, com intuito de aprimorar minhas competências.
             Diariamente, me dedico a aprimorar meu conhecimento e a desenvolver
             soluções eficientes, com o objetivo de me tornar um desenvolvedor
-            completo e pronto para enfrentar desafios reais.🚀
+            completo e pronto para enfrentar qualquer desafio.🚀
           </p>
           <a
             className={styles.cv}
