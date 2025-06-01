@@ -37,7 +37,7 @@ const Gravity = () => {
             Programador Full-Stack
           </h1>
           <p data-aos="zoom-out-left" data-aos-duration="700">
-            Atualmente, sou estudante de análise e desenvolvimento se sistemas e programador web.
+            Atualmente, sou estudante de análise e desenvolvimento de sistemas e programador web.
             Diariamente, me dedico a aprimorar meu conhecimento e a desenvolver
             soluções eficientes, com o objetivo de me tornar um desenvolvedor
             completo e pronto para enfrentar qualquer desafio.🚀
