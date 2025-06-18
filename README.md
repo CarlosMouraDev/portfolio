@@ -1,6 +1,7 @@
 # 🚀 Meu Portfólio
 
 Bem-vindo ao repositório do meu **portfólio pessoal**, desenvolvido com **React + Vite** e com um tema visual inspirado no **espaço sideral** 🪐. Aqui você pode conhecer minhas **habilidades técnicas**, ferramentas que domino e obter meus contatos para oportunidades profissionais!
+Link para o deploy: https://portfolio-umber-xi-27.vercel.app/
 
 ---
 
