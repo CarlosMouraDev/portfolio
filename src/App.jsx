@@ -20,7 +20,7 @@ const App = () => (
         <div className="about">
           <Reveal>
             <p>
-            Meu nome é Carlos Eduardo, sou um programador apaixonado por resolver desafios e por praticar esportes, especialmente vôlei. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas e JavaScript é minha linguagem de programação favorita, e foi nela que decidi me especializar. Meus principais objetivos são me tornar um programador de destaque e alcançar fluência em inglês
+            Sou apaixonado por tecnologia desde criança, quando cresci me encontrei no mundo da programação e decidi me especializar profissionalmente na área. Em 2023 iniciei na faculdade de análise e desenvolvimento de sistemas e Javascript se tornou a minha linguagem de programação favorita, com isso decidi me aprofundar na linguagem e no desenvolvimento web, em novembro de 2024 consegui minha primeira vaga de estágio como desenvolvedor full-stack, que concluí com sucesso, agora busco uma nova oportunidade para seguir minha jornada e consolidar ainda mais meus conhecimentos, aprender coisas novas e enfrentar novos desafios.
             </p>
           </Reveal>
           <AnimeEarth className="anime" />
@@ -58,6 +58,12 @@ const App = () => (
                   title="PostgreSQL"
                 />
                 <Tec src="/assets/mongo.svg" alt="mongo" title="MongoDB" />
+                <Tec src="/assets/mysql.webp" alt="mysql" title="MySql" />
+                <Tec src="/assets/express.png" alt="express" title="Express" />
+                <Tec src="/assets/NestJS.svg" alt="nestjs" title="NestJs" />
+                <Tec src="/assets/jest.png" alt="jest" title="Jest" />
+                <Tec src="/assets/typeorm.png" alt="typeorm" title="TypeOrm" />
+                <Tec src="/assets/prisma.png" alt="prisma" title="Prisma" />
               </div>
             </Reveal>
             <Reveal>
