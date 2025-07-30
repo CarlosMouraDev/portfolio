@@ -1,4 +1,3 @@
-import React from "react";
 import Gravity from "./Components/Gravity/Gravity";
 import ReverseGravity from "./Components/ReverseGravity/ReverseGravity";
 import "./App.css";
@@ -121,6 +120,16 @@ const App = () => (
               >
                 Uma rede social para cachorros feita inteiramente com react.
                 Demonstra o consumo de uma api usando react.
+              </Project>
+              <Project
+                href="https://chronos-pomodoro-beryl.vercel.app/"
+                src="/assets/chronos_pomodoro.png"
+                alt="dog"
+                title='Chronos Pomodoro'
+                ghub="https://github.com/CarlosMouraDev/chronos_react"
+              >
+                Um projeto que visa ajudar na concentração cronometrando tempo e descanso, feito com react.
+                Mais detalhes sobre a técnica de pomodoro estão no projeto.
               </Project>
             </div>
           </div>
