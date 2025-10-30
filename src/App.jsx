@@ -111,6 +111,15 @@ const App = () => (
         <Reveal>
           <div className="projectsContainer">
             <div className="projects">
+               <Project
+                href="https://the-movies-lemon.vercel.app/"
+                src="/assets/theMovies.png"
+                alt="movies"
+                title='The movies'
+                ghub="https://github.com/CarlosMouraDev/dogs"
+              >
+                Um projeto full-stack feito com NestJS e react, com criação de usuário e com opção de favoritar filmes.
+              </Project>
               <Project
                 href="https://projeto-react-jade.vercel.app/"
                 src="/assets/dog.png"
