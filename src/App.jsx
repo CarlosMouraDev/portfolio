@@ -116,7 +116,7 @@ const App = () => (
                 src="/assets/theMovies.png"
                 alt="movies"
                 title='The movies'
-                ghub="https://github.com/CarlosMouraDev/dogs"
+                ghub="https://github.com/CarlosMouraDev/TheMoviesProjectFrontEnd"
               >
                 Um projeto full-stack feito com NestJS e react, com criação de usuário e com opção de favoritar filmes.
               </Project>
